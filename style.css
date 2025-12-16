@@ -10,9 +10,27 @@ header{
    padding: 20px;
 }
 .brand-name{
-    display: flex;
+    /* display: flex; */
     /* width: 280px; */
 }
+.brand-title i{
+    font-family: arial;
+    font-size: 32px;
+}
+
 .brand-title{
-    display: block;
+    font-size: 30px;
+}
+.brand-title span{
+    margin-left: -53;
+    font-size:30px;
+    color: crimson;
+}
+
+.sub-title {
+    margin-left:90px
+}
+
+.sub-title span{
+    color: rgb(211, 19, 19);
 }
