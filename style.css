@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 4fr 5fr 3fr;
+   /* justify-content: space-around; */
+   padding: 20px;
+}
+.brand-name{
+    display: flex;
+    /* width: 280px; */
+}
+.brand-title{
+    display: block;
+}
