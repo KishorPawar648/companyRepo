@@ -10,10 +10,10 @@ header{
    padding: 30px;
    width: 100%;
 }
-.brand-name{
+/* .brand-name{
     /* display: flex; */
     /* width: 280px; */
-}
+/* }  */
 .brand-title i{
     font-family: arial;
     font-size: 32px;
