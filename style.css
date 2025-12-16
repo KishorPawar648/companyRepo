@@ -5,9 +5,10 @@
 
 header{
     display: grid;
-    grid-template-columns: 4fr 5fr 3fr;
+    grid-template-columns: 3fr 6fr 3fr;
    /* justify-content: space-around; */
-   padding: 20px;
+   padding: 30px;
+   width: 100%;
 }
 .brand-name{
     /* display: flex; */
@@ -31,6 +32,56 @@ header{
     margin-left:90px
 }
 
-.sub-title span{
+.sub-title-1{
     color: rgb(211, 19, 19);
+}
+
+.sub-title-2{
+    color: rgb(19, 19, 90);
+}
+
+.sub-title-3{
+    color: gray;
+}
+
+.nav-bar-button nav{
+   
+   margin-top: 16px;
+}
+
+nav span{
+     cursor: pointer;
+    margin-left: 19px;
+}
+
+.search-or-subscribe{
+    padding-right: -404px;
+    padding: 7px;
+    display: flex;
+}
+
+.subscribe-btn{
+    border-radius: 15px;
+    padding: 12px;
+    border: 2px solid gray;
+    font-size: 15px;
+     cursor: pointer;
+}
+.search-btn{
+    font-size: 20px;
+    padding:12px;
+     cursor: pointer;
+}
+
+.search-btn:hover{
+    color: orangered;
+}
+
+.subscribe-btn:hover{
+    background-color:orangered;
+    color: white;
+}
+
+nav span:hover{
+    color: orangered;
 }
